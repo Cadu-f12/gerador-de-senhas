@@ -13,7 +13,12 @@
     <div>
         <div class="container">
             <p>Your password will be generate here!</p>
-            <button onclick="renderPassword()">Click here to generate!</button>
+            <input type="number" placeholder="Type here the length of password" class="input-length" max="16" min="0" >
+            <button onclick="
+            const lengthPassword = Number(document.querySelector('input').value);
+            renderPassword(lengthPassword)
+            ">Click here to generate!
+            </button>
         </div>
     </div>
 
