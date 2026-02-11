@@ -1,0 +1,25 @@
+body {
+    font-family: Arial;
+}
+h1 {
+    text-align: center;
+    margin: 25px 0px;
+}
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    width: 400px;
+    background-color: rgb(199, 199, 199);
+    padding: 90px 45px; 
+    border-radius: 30px;
+    
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    align-items: center;        
+    gap: 20px;
+}
